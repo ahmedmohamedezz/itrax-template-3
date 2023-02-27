@@ -1,0 +1,11 @@
+template link : https://preview.colorlib.com/theme/agrica/
+
+
+
+- link your style sheet after all other links , to make easy to override them
+
+- link js files before bootstrap becuase bootstrap uses them , so they must included first
+1. jquery 
+2.  popper 
+3. bootsrap 
+4. your main js file

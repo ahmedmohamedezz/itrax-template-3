@@ -1,0 +1,104 @@
+:root{
+    --light-green-color: #329D23 ;
+    --dark-green-color: #234821 ;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    color: #222;
+    font-family: 'Josefin Sans', sans-serif;
+    min-height: 2000vh;
+}
+.but{
+    background-color: var(--light-green-color);
+    padding: 15px 40px;
+    margin-left: 30px;
+    position: relative;
+}
+.but a{
+    color: #fff ;
+    text-decoration: none;
+    /* to make it's layer above the ::before */
+    position: relative;
+    border-radius: 6px;
+}
+.but a i{
+    margin-right: 8px;
+}
+.but::before{
+    content: "";
+    position: absolute;
+    top:0%;
+    left: 0%;
+    width: 0%;
+    height: 100%;
+    background-color: #288e0c;
+    transition: 0.3s all ease-in-out;
+}
+.but:hover::before{
+    /* .but::before:hover  ==> wrong , hover on the button not the ::before */
+    width: 100%;
+}
+/* start nav */
+.navbar{
+    background-color: #fff;
+    padding: 18px 50px;
+    box-shadow: 1px 6px #eee;
+}
+/* .nav-bar .navbar-brand a img{
+    width: 50px !important;
+} */
+.navbar .navbar-nav .nav-item{
+    margin-right: 30px;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: var(--dark-green-color);
+    font-size: 18px;
+    padding: 15px;
+    position: relative;
+    transition: 0.3s all ease-in-out;
+}
+.navbar .navbar-nav .nav-item .nav-link::before{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 0%;
+    width: 0%;
+    height: 4px;
+    background-color: var(--light-green-color);
+    transition: 0.3s all ease-in-out;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: var(--light-green-color);
+}
+.navbar .navbar-nav .nav-item .nav-link:hover::before{
+    width: 100%;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu{
+    background-color: #fff;
+    color: #000;
+    top: 133%;
+}
+@media (max-width:991px) {
+    .nav-bar{
+        padding: 20px 25px;
+    }
+    .nav-toggler:focus,
+    .navbar-toggler:hover{
+        border: 0px;
+        outline: none;
+        box-shadow: none;
+    }
+    .navbar-toggler i{
+        font-size: 25px;
+        color: var(--light-green-color);
+    }
+    .navbar .navbar-nav .nav-item .nav-link:hover::before{
+        width: 0%;
+    }
+}
+
+/* end nav */
