@@ -1,7 +1,14 @@
-dropdown-toggle : drop down menu icon
-dropdown-divider : horizontal line between elements
-active : link color is bold in the link page
-ml-auto , mr-auto : margins auto
-navbar-light bg-light : colors 
-btn : simple button without background
-d-none d-lg-block : appears only in large screens
+- dropdown-toggle : drop down menu icon
+- dropdown-divider : horizontal line between elements
+- active : link color is bold in the link page
+- ml-auto , mr-auto : margins auto
+- navbar-light bg-light : colors 
+- btn : simple button without background
+- d-none d-lg-block : appears only in large screens
+- fixed-top : to display something fixed on the top of the page
+- data-interval="" ==> attribute to control the interval time of the slider ( carousel )
+- 
+- 
+- 
+- 
+- 

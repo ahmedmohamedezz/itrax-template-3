@@ -9,3 +9,7 @@ template link : https://preview.colorlib.com/theme/agrica/
 2.  popper 
 3. bootsrap 
 4. your main js file
+
+
+- notes : 
+- give the carousel info width:100% to prevent the text to be on new lines
