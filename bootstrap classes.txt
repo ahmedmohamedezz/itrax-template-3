@@ -7,6 +7,13 @@
 - d-none d-lg-block : appears only in large screens
 - fixed-top : to display something fixed on the top of the page
 - data-interval="" ==> attribute to control the interval time of the slider ( carousel )
+- container : to give a div/section fixed width + margin auto
+- container-fluid : provides a full width container ( entire view port )
+- row : display flex
+- col- , col-sm- , col-md- , col-lg- , col-xl- : classes to control the responsivity of your section in different screens
+- img-fluid : width : 100% , and height : auto
+- 
+- 
 - 
 - 
 - 

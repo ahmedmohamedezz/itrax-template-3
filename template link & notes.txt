@@ -1,4 +1,4 @@
-template link : https://preview.colorlib.com/theme/agrica/
+https://preview.colorlib.com/theme/agrica/
 
 
 
